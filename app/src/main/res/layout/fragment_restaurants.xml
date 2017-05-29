@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    tools:context="com.example.dh2.restaurants.RestaurantsFragment">
+
+    <ImageView
+        android:id="@+id/imageViewFotoRestaurant"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tegui" />
+
+    <TextView
+        android:id="@+id/textViewNombreRestaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="30dp"
+        android:text="[Nombre Restaurant]"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+</FrameLayout>

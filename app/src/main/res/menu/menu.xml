@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+    <item
+        android:icon="@android:drawable/ic_input_get"
+        android:title="Restaurants"
+        android:id="@+id/itemRestaurants"/>
+
+    <item
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="About us"
+        android:id="@+id/itemAboutUs"/>
+    </group>
+
+</menu>
