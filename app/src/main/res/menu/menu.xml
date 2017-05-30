@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group>
-    <item
-        android:icon="@android:drawable/ic_input_get"
-        android:title="Restaurants"
-        android:id="@+id/itemRestaurants"/>
+        <item
+            android:id="@+id/itemRestaurants"
+            android:icon="@android:drawable/checkbox_on_background"
+            android:title="Restaurants" />
+
+    </group>
+    <group>
+        <item
+            android:id="@+id/itemlistaRecetas"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="Lista de Recetas" />
+    </group>
 
     <item
         android:icon="@android:drawable/ic_menu_myplaces"
         android:title="About us"
         android:id="@+id/itemAboutUs"/>
-    </group>
-
 </menu>
