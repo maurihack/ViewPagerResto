@@ -5,7 +5,7 @@
     android:id="@+id/drawerLayoutMainActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dh2.restaurants.MainActivity">
+    tools:context="com.example.dh2.restaurants.Activities.MainActivity">
 
     <FrameLayout
         android:layout_width="match_parent"
