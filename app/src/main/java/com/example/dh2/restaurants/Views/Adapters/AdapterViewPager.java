@@ -1,8 +1,10 @@
-package com.example.dh2.restaurants;
+package com.example.dh2.restaurants.Views.Adapters;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+
+import com.example.dh2.restaurants.R;
 
 import java.util.ArrayList;
 import java.util.List;

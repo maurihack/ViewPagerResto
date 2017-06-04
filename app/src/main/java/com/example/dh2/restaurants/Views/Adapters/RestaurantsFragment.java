@@ -1,4 +1,4 @@
-package com.example.dh2.restaurants;
+package com.example.dh2.restaurants.Views.Adapters;
 
 
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.dh2.restaurants.R;
 
 
 /**

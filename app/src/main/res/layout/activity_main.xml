@@ -5,7 +5,7 @@
     android:id="@+id/drawerLayoutMainActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dh2.restaurants.Activities.MainActivity">
+    tools:context=".Views.Activities.MainActivity">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -14,9 +14,16 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="centerCrop"
+            android:layout_height="270dp"
+            android:paddingTop="15dp"
             android:src="@drawable/mesa_recepcion"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/cubiertos"/>
     </FrameLayout>
 
 

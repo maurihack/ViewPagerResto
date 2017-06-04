@@ -1,4 +1,4 @@
-package com.example.dh2.restaurants.Activities;
+package com.example.dh2.restaurants.Views.Activities;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import com.example.dh2.restaurants.AboutUsFragment;
+import com.example.dh2.restaurants.Views.Fragments.AboutUsFragment;
 import com.example.dh2.restaurants.R;
 
 public class MainActivity extends AppCompatActivity {
