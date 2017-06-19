@@ -1,4 +1,4 @@
-package com.example.dh2.restaurants.Views.Adapters;
+package com.example.dh2.restaurants.Views.Fragments;
 
 
 import android.os.Bundle;

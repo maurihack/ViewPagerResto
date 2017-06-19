@@ -5,6 +5,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 import com.example.dh2.restaurants.R;
+import com.example.dh2.restaurants.Views.Fragments.RestaurantsFragment;
 
 import java.util.ArrayList;
 import java.util.List;

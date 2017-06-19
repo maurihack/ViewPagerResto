@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:paddingStart="5dp"
     android:paddingEnd="5dp"
-    tools:context=".Views.Adapters.RestaurantsFragment">
+    tools:context=".Views.Fragments.RestaurantsFragment">
 
     <ImageView
         android:id="@+id/imageViewFotoRestaurant"

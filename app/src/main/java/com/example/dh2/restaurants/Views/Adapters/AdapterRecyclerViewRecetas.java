@@ -23,7 +23,7 @@ public class AdapterRecyclerViewRecetas extends RecyclerView.Adapter implements 
     private List<Receta> listaRecetas;
     private View.OnClickListener clickListener;
 
-//Constructor del Adapter
+    //Constructor del Adapter
     public AdapterRecyclerViewRecetas(Context context, List<Receta> listaRecetas) {
         this.context = context;
         this.listaRecetas = listaRecetas;
@@ -37,7 +37,7 @@ public class AdapterRecyclerViewRecetas extends RecyclerView.Adapter implements 
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
         LayoutInflater layoutInflater = LayoutInflater.from(context);
-        View itemView = layoutInflater.inflate(R.layout.item_recyclerview_recetas,parent,false);
+        View itemView = layoutInflater.inflate(R.layout.item_recyclerview_recetas, parent, false);
         ViewHolderDeRecetas viewHolderDeRecetas = new ViewHolderDeRecetas(itemView);
 
         //clickListener
@@ -48,9 +48,11 @@ public class AdapterRecyclerViewRecetas extends RecyclerView.Adapter implements 
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
-
+        //obtengo un objeto de la lista
         Receta unaReceta = listaRecetas.get(position);
+        //casteo el holder
         ViewHolderDeRecetas viewHolderDeRecetas = (ViewHolderDeRecetas) holder;
+        //el holder la settea en la celda
         viewHolderDeRecetas.cargarReceta(unaReceta);
 
     }
@@ -66,17 +68,18 @@ public class AdapterRecyclerViewRecetas extends RecyclerView.Adapter implements 
     }
 
     //Contruyo el ViewHolder dentro de la clase
-    private class ViewHolderDeRecetas extends RecyclerView.ViewHolder{
+    private class ViewHolderDeRecetas extends RecyclerView.ViewHolder {
 
         private TextView textViewNombreReceta;
         private ImageView imageViewReceta;
 
         public ViewHolderDeRecetas(View itemView) {
             super(itemView);
-            textViewNombreReceta = (TextView)itemView.findViewById(R.id.textViewNombrePlato);
+            textViewNombreReceta = (TextView) itemView.findViewById(R.id.textViewNombrePlato);
             imageViewReceta = (ImageView) itemView.findViewById(R.id.imageViewPlato);
         }
-        public void cargarReceta(Receta unaReceta){
+
+        public void cargarReceta(Receta unaReceta) {
             textViewNombreReceta.setText(unaReceta.getNombreDelPlato());
             imageViewReceta.setImageResource(unaReceta.getImageId());
         }
